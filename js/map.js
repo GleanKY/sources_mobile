@@ -106,7 +106,7 @@ legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend');
     //this is the title for the legend
-    div.innerHTML += "<b>"+ 'Program Type'+ "</b>"+ "<br>";
+    //div.innerHTML += "<b>"+ 'Program Type'+ "</b>"+ "<br>";
     
     //type is the content of the Program Type field, labels is what you want the label on the legend to actually say
     //there need to be the same number of types as labels and listed in the same order
