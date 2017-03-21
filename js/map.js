@@ -16,7 +16,7 @@ function setColor(type) {
 	       //type == 'Recipient' ? "#a6cee3" : 
 	       // type == 'GleanKY partner' ? "#1f78b4" :
 	       // type == 'Neighborhood Ambassador' ? "#b2df8a" :
-	       type == 'Source' ? "#33a02c" ; 
+	       type == 'Source' ? "#33a02c"  
 	                    // "white";
 }
 
