@@ -11,19 +11,20 @@ var sitePoints = null;
 //Sets the color for each Program Type
 //more Program Types can be added by following the pattern below
 //the last color without a type label is the color that anything with a type that isn't listed will be colored 
-function setColor(type) {
-	return //type == 'Office' ? "black" :
-	       //type == 'Recipient' ? "#a6cee3" : 
-	       // type == 'GleanKY partner' ? "#1f78b4" :
-	       // type == 'Neighborhood Ambassador' ? "#b2df8a" :
-	       type == 'Source' ? "#33a02c"  
-	                    // "white";
-}
+// function setColor(type) {
+// 	return //type == 'Office' ? "black" :
+// 	       //type == 'Recipient' ? "#a6cee3" : 
+// 	       // type == 'GleanKY partner' ? "#1f78b4" :
+// 	       // type == 'Neighborhood Ambassador' ? "#b2df8a" :
+// 	       type == 'Source' ? "#33a02c"  
+// 	                    // "white";
+// }
 
 function style(feature) {
     return {
-        fillColor: setColor(feature.properties.program_type),
-        color: "white",
+        //fillColor: setColor(feature.properties.program_type),
+        fillColor: "#33a02c",
+        color: "#33a02c",
         fillOpacity: 0.9,
         width: 0.2
     };
