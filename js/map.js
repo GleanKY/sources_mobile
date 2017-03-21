@@ -12,7 +12,7 @@ var sitePoints = null;
 //more Program Types can be added by following the pattern below
 //the last color without a type label is the color that anything with a type that isn't listed will be colored 
 function setColor(type) {
-	return //type == 'Office' ? "black" :
+	return type == 'Office' ? "black" :
 	       //type == 'Recipient' ? "#a6cee3" : 
 	       // type == 'GleanKY partner' ? "#1f78b4" :
 	       // type == 'Neighborhood Ambassador' ? "#b2df8a" :
@@ -111,10 +111,10 @@ legend.onAdd = function (map) {
     //type is the content of the Program Type field, labels is what you want the label on the legend to actually say
     //there need to be the same number of types as labels and listed in the same order
     //type = ['Office', 'Recipient', 'Source'];
-    type = ['Source'];
+    type = ['Office', 'Source'];
 
     //labels = ['GleanKY Office', 'Gleaning Recipient', 'Gleaning Source'];
-    labels = ['Gleaning Source'];
+    labels = ['GleanKY Office','Gleaning Source'];
     
     for (var i = 0; i < type.length; i++) {
         div.innerHTML +=
