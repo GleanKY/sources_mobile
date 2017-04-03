@@ -48,7 +48,7 @@ function highlightFeature(e) {
 
 
 //get geoJSON and put it on the map
-$.getJSON("data/map.geojson",function(data){
+$.getJSON("data/sources.geojson",function(data){
 	// Create data layer
 	sitePoints = L.geoJson(data, {
 		pointToLayer: function (feature, latlng) {
